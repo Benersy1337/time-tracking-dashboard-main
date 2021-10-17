@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+
+    font-size: 62.5%;
+    background: var(--Verydarkblue);
+
+
+    /* Primary */
+
+
+    --Blue: hsl(246, 80%, 60%);
+
+    -- Lightred: hsl(15, 100%, 70%);
+    -- Softblue: hsl(195, 74%, 62%);
+    -- Lightred: hsl(348, 100%, 68%);
+    -- Limegreen: hsl(145, 58%, 55%);
+    -- Violet: hsl(264, 64%, 52%);
+    -- Soft orange: hsl(43, 84%, 65%);
+
+
+    /* Neutral */
+
+    --Verydarkblue: hsl(226, 43%, 10%);
+    --Darkblue: hsl(235, 46%, 20%);
+    --Desaturatedblue: hsl(235, 45%, 61%);
+    --PaleBlue: hsl(236, 100%, 87%);
+
+}
+
+
+
+
+body{
+    color: white;
+    font-size: 1.8rem;
+    max-width: ;
+    
+    
+}
+
+
+
+section.global{
+
+    display: grid;
+
+    margin: 200px auto;
+
+    text-align: center;
+
+    
+    
+    grid-template-areas:  'header work play study'
+    'header exercise social selfcare';                            
+    
+}
+
+
+
+header{
+    grid-area: header;
+    background: var(--Blue);
+    margin: 1rem;
+    border-radius: 1rem;
+    height: 40rem;
+    width: 20rem;
+
+}
+
+
+header .time{
+
+    background: var(--Darkblue); 
+    display: block;
+    border-radius: 1rem;
+
+    
+}
+
+
+section.global .work{
+
+    grid-area: work;
+    background: var(--Darkblue);
+    margin: 2rem;
+    border-radius: 1rem;
+    
+}
+
+section.global .play{
+
+    grid-area: play;
+    background: var(--Darkblue);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+section.global .study{
+
+    grid-area: study;
+    background: var(--Darkblue);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+section.global .exercise{
+
+    grid-area: exercise;
+    background: var(--Darkblue);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+section.global .social{
+
+    grid-area: social;
+    background: var(--Darkblue);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+section.global .selfcare{
+
+    grid-area: selfcare;
+    background: var(--Darkblue);
+    margin: 2rem;
+    border-radius: 1rem;
+    
+}
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
