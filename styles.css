@@ -71,11 +71,28 @@ body{
 }
 
 
+
+
 .grid-container .main{
 
+    background-color: var(--Darkblue);
     grid-area: main;
     height: 42rem;
     width: 20rem;
+    
+    
+}
+
+.grid-container .main h3{
+    margin-top: 10rem;
+}
+
+.grid-container .maintop{
+
+    background-color: var(--Blue);
+    margin-bottom: 10rem;
+    height: 20rem;
+    border-radius: 1rem;
     
 }
 
@@ -83,31 +100,37 @@ body{
 .grid-container .work{
 
     grid-area: work;
+    background-color: var(--Darkblue);
 }
 
 .grid-container .play{
 
     grid-area: play;
+    background-color: var(--Darkblue);
 }
 
 .grid-container .study{
 
     grid-area: study;
+    background-color: var(--Darkblue);
 }
 
 .grid-container .exercise{
 
     grid-area: exercise;
+    background-color: var(--Darkblue);
 }
 
 .grid-container .social{
 
     grid-area: social;
+    background-color: var(--Darkblue);
 }
 
 .grid-container .selfcare{
 
     grid-area: selfcare;
+    background-color: var(--Darkblue);
 
 }
 
